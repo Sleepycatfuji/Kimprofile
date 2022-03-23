@@ -1,15 +1,17 @@
 body {
   background: #e2b8c8;
-  color: #575F7D;
-  font-family: 'Lato', sans-serif;
+  color: #575f7d;
+  font-family: "Lato", sans-serif;
   font-size: 30px;
   font-weight: lighter;
 }
-h1, h2, h3 {
-  font-family: 'Lato', sans-serif;
+h1,
+h2,
+h3 {
+  font-family: "Lato", sans-serif;
 }
 h1 {
-  color: #575F7D;
+  color: #575f7d;
   font-size: 32px;
   font-weight: 900;
 }
@@ -20,9 +22,9 @@ h2 {
   font-weight: 500;
 }
 a {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   text-decoration: none;
-  color: #6B72E1;
+  color: #6b72e1;
   font-weight: 600;
   font-size: 16px;
 }
@@ -55,12 +57,14 @@ a:hover {
 
 .img-circle {
   border-radius: 50%;
+  object-fit: contain;
 }
 
-.img-small{
+.img-small {
   width: 450px;
-  height: 450px;
-  border-radius: 80%;
+  height: 400px;
+  border-radius: 40%;
+  object-fit: cover;
 }
 
 .list-inline {
